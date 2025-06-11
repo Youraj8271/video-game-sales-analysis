@@ -1,0 +1,47 @@
+Viva Questions and Answers: Video Game Sales and Engagement Analysis
+====================================================================
+
+1. Q: What is the objective of your project?
+   A: The main objective is to analyze global video game sales and player engagement data using tools like Python, SQL, and Power BI to extract meaningful insights.
+
+2. Q: What datasets did you use?
+   A: I used two datasets: 'vgsales.csv' containing game titles, platforms, and regional sales, and 'games.csv' containing ratings, reviews, wishlists, and user data.
+
+3. Q: How did you clean the data?
+   A: I used Python (Pandas) to remove null values, fix inconsistent formats, and save the cleaned versions as 'cleaned_vgsales.csv' and 'cleaned_games.csv'.
+
+4. Q: What tools and technologies did you use?
+   A: Python (for cleaning and EDA), SQLite (for SQL queries), and Power BI (for visualization), along with VS Code and Jupyter Notebook.
+
+5. Q: What insights did you gain from EDA?
+   A: I found that Nintendo is the top publisher, Action and Sports are top genres, and most game releases occurred between 2005–2010.
+
+6. Q: How many SQL queries did you write?
+   A: I wrote and executed 15+ queries to analyze genre popularity, regional sales, top publishers, and year-wise trends.
+
+7. Q: What did your Power BI dashboard contain?
+   A: It had bar charts (Top 10 games), pie charts (genre distribution), line charts (year-wise releases), and slicers for Year, Genre, and Platform.
+
+8. Q: What challenges did you face?
+   A: Handling missing and inconsistent data in 'games.csv', and aligning both datasets for meaningful comparisons.
+
+9. Q: What did you learn from this project?
+   A: I learned end-to-end data handling, improved my Python, SQL, and Power BI skills, and gained real experience in building dashboards and analysis pipelines.
+
+10. Q: What is the future scope of this project?
+    A: I can add live data from gaming APIs like Steam, build a prediction model for future sales, and recommend games based on user behavior.
+
+11. Q: What is the business impact of your project?
+    A: It helps publishers identify strong platforms and genres, marketers plan campaigns, and investors understand trends in gaming.
+
+12. Q: Where is your project hosted?
+    A: On GitHub at: https://github.com/youraj8271/video-game-sales-analysis
+
+13. Q: What was your biggest takeaway?
+    A: The importance of clean data, structured analysis, and how visual storytelling helps communicate complex information clearly.
+
+14. Q: Why did you choose this topic?
+    A: Because the gaming industry is a fast-growing market, and I wanted to apply my data skills to something practical, interesting, and impactful.
+
+15. Q: What makes your project unique?
+    A: I combined multiple datasets, used SQL with Python, created real-time dashboards in Power BI, and produced both visual and analytical insights to support strategic decisions.

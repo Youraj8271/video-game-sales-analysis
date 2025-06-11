@@ -1,0 +1,100 @@
+🎮 Video Game Sales and Engagement Analysis
+By: Youraj Kumar
+Institute: IIT Patna
+Capstone Project – GUVI Zen Class (Data Science)
+
+📌 Abstract
+This project analyzes global video game sales and user engagement using real-world data.
+By leveraging Python, SQL, and Power BI, we transform raw data into meaningful insights to understand the evolution of the gaming industry.
+
+❓ Problem Statement
+Lack of clarity on global gaming trends
+
+No clear visibility into top-performing genres and platforms
+
+No integrated view of region-wise sales
+
+✅ Proposed Solution
+Clean and analyze the data using Python
+
+Perform deep insights using 15+ SQL queries
+
+Build interactive dashboards using Power BI for better storytelling
+
+📂 Dataset Details
+vgsales.csv – Game Name, Platform, Year, Publisher, Genre, Regional Sales
+
+games.csv – Title, Rating, Reviews, Summary, Plays, Wishlists
+
+🛠️ Tools & Technologies
+Python (Pandas, Matplotlib, Seaborn)
+
+SQLite (SQL Analysis)
+
+Power BI (Interactive Dashboards)
+
+Jupyter Notebook & VS Code
+
+📊 EDA & SQL Highlights
+Top 10 Best-Selling Games – Bar Chart
+
+Genre Popularity – Pie Chart
+
+Platform-wise Game Distribution
+
+Sales by Publisher and Region
+
+Year-over-Year Trends
+
+📈 Power BI Dashboard
+Visuals for sales, platforms, genres, and years
+
+Filters to view by Genre, Platform, Year
+
+Interactive storytelling through slicers and charts
+
+🔍 Key Insights
+Nintendo leads in global sales
+
+Action and Sports are top-selling genres
+
+Game releases peaked between 2005 and 2010
+
+North America is the largest gaming market
+
+📝 Conclusion
+This project helped me:
+
+Understand real-world data preprocessing
+
+Improve my SQL and analysis skills
+
+Practice professional dashboard creation
+
+💼 Business Impact / Use Cases
+Publishers can decide where and how to release games
+
+Investors can fund the right genres and platforms
+
+Marketers can target the right audience more effectively
+
+🔭 Future Scope
+Integrate Steam/Xbox live APIs
+
+Build predictive models for future sales
+
+Create a recommendation engine for gamers
+
+🎓 Feedback & Learnings
+Data cleaning is the most important step
+
+Gained confidence in SQL and Power BI
+
+Ready to handle real industry projects
+
+⚠️ Challenges Faced
+Missing values in games.csv
+
+Non-standardized formats in year and ratings
+
+Required smart data merge and transformation

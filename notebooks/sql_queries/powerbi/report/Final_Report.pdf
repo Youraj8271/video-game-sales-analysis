@@ -1,0 +1,129 @@
+✅ Final Report: Video Game Sales and Engagement Analysis
+🧾 Executive Summary
+This project analyzes global video game sales and player engagement using real-world datasets.
+By leveraging Python for data cleaning, SQL for querying, and Power BI for visualization, we extract actionable insights for game publishers, marketers, and analysts.
+The outcome is a full-stack data science pipeline that converts raw CSV files into meaningful business decisions.
+
+👤 Student Details
+Name: Youraj Kumar
+Institute: Indian Institute of Technology (IIT) Patna
+Program: GUVI Zen Class – Data Science Capstone Project
+
+📌 Project Title
+Video Game Sales and Engagement Analysis
+
+❓ Objective
+To explore, analyze, and visualize video game sales data across regions, platforms, and genres, and understand patterns in player engagement.
+
+❗ Problem Statement
+Scattered and unclean sales data across platforms
+
+No clear view of top-performing games or genres
+
+Lack of region-specific sales insights
+
+Business decision-making not data-driven
+
+✅ Proposed Solution
+Clean & preprocess datasets using Python
+
+Run 15+ analytical SQL queries on cleaned data
+
+Visualize trends using Power BI dashboard
+
+Deliver a summary report and presentation
+
+📂 Dataset Details
+vgsales.csv
+
+Fields: Game Name, Platform, Year, Genre, Publisher, Sales (NA, EU, JP, Global)
+
+games.csv
+
+Fields: Title, Rating, Reviews, Summary, Plays, Wishlists
+
+🛠️ Tools & Technologies
+Python (Pandas, Seaborn, Matplotlib)
+
+SQLite (for SQL queries)
+
+Power BI (for interactive dashboards)
+
+Jupyter Notebook, VS Code
+
+🔁 Project Workflow
+java
+Copy
+Edit
+Raw Data
+   ↓
+Data Cleaning (Python)
+   ↓
+Exploratory Data Analysis (EDA)
+   ↓
+SQL-Based Insight Generation
+   ↓
+Power BI Dashboards
+   ↓
+Final Report + Viva
+📊 Key Findings
+Nintendo dominates the global game market
+
+Action and Sports are the most engaging genres
+
+2005–2010 saw the highest number of releases
+
+North America leads in total regional sales
+
+📈 Power BI Dashboard Summary
+Bar Chart: Top 10 Games by Global Sales
+
+Pie Chart: Genre-Wise Sales
+
+Line Chart: Games Released per Year
+
+Filters (Slicers): Year, Platform, Genre
+
+📚 Challenges Faced
+Missing values and blank records in games.csv
+
+Different year formats (text vs int)
+
+Merging & matching data between files
+
+Power BI slicer configuration and sorting
+
+🧠 Skills Gained
+Python-based data cleaning and transformation
+
+SQL query writing for real-world datasets
+
+Data storytelling using Power BI
+
+Report writing and structured documentation
+
+💼 Business Impact
+Publishers can identify profitable genres & regions
+
+Marketers can build region-targeted campaigns
+
+Investors can analyze past trends to forecast returns
+
+🔭 Future Scope
+Integrate Steam or Xbox APIs for live data
+
+Build machine learning model to predict future sales
+
+Create a recommendation engine for players
+
+🔗 GitHub Repository
+github.com/youraj8271/video-game-sales-analysis
+
+📜 Declaration
+I hereby declare that this project titled
+“Video Game Sales and Engagement Analysis” is my original work and has not been copied from any source.
+– Youraj Kumar
+
+🏷️ Skill Tags
+#Python #SQL #PowerBI #DataCleaning #EDA #Visualization #CapstoneProject
+

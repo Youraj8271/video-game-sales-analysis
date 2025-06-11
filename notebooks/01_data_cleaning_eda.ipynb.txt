@@ -1,0 +1,44 @@
+ 01_data_cleaning_eda.ipynb
+# 🔰 Step 1: Import libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 🔰 Step 2: Load cleaned datasets
+vg_df = pd.read_csv("../cleaned_data/cleaned_vgsales.csv")
+games_df = pd.read_csv("../cleaned_data/cleaned_games.csv")
+
+# 🔰 Step 3: Top 10 Highest Selling Games
+top_games = vg_df.sort_values(by="Global_Sales", ascending=False).head(10)
+plt.figure(figsize=(10,5))
+sns.barplot(x="Global_Sales", y="Name", data=top_games, palette="viridis")
+plt.title("Top 10 Highest Selling Video Games")
+plt.xlabel("Global Sales (Millions)")
+plt.ylabel("Game Title")
+plt.tight_layout()
+plt.show()
+
+# 🔰 Step 4: Platform-wise Sales
+platform_sales = vg_df.groupby("Platform")["Global_Sales"].sum().sort_values(ascending=False).head(10)
+platform_sales.plot(kind="bar", figsize=(10,4), title="Top 10 Platforms by Global Sales")
+plt.ylabel("Global Sales (Millions)")
+plt.xlabel("Platform")
+plt.show()
+
+# 🔰 Step 5: Genre-wise Sales
+genre_sales = vg_df.groupby("Genre")["Global_Sales"].sum().sort_values(ascending=False)
+genre_sales.plot(kind="barh", figsize=(10,6), color='skyblue', title="Global Sales by Genre")
+plt.xlabel("Global Sales (Millions)")
+plt.ylabel("Genre")
+plt.show()
+
+# 🔰 Step 6: Year-wise Game Releases
+year_count = vg_df["Year"].value_counts().sort_index()
+plt.figure(figsize=(12,5))
+sns.lineplot(x=year_count.index, y=year_count.values)
+plt.title("Year-wise Game Release Count")
+plt.xlabel("Year")
+plt.ylabel("Number of Games")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
